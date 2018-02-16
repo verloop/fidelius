@@ -1,5 +1,7 @@
 # Fidelius
 
+Read [this blog post](https://medium.com/verloop-engineering/fidelius-e4b2d8b6b1df) for more details.
+
 ## Usage
 
 If you want to generate a temporary access token:
