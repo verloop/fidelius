@@ -54,7 +54,7 @@ func main() {
 	fatalErr(err)
 
 	var result GHResponse
-	req, err := http.NewRequest("POST", fmt.Sprintf("https://api.github.com/installations/%d/access_tokens", InstallationId), nil)
+	req, err := http.NewRequest("POST", fmt.Sprintf("https://api.github.com/app/installations/%d/access_tokens", InstallationId), nil)
 	fatalErr(err)
 
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
